@@ -1,7 +1,7 @@
 import {  defineConfig } from "vite";
 
 export default defineConfig ({
-    root: "essensliste.html",
+    root: "index",
     assetsInclude: ["./assets/**/*.*"],
     build: {
         emptyOutDir: true,
