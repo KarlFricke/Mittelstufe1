@@ -46,7 +46,7 @@ table.content tbody tr.active {
   text-decoration: none;
   display: inline-block;
   font-size: 30px;
-  margin: 10px 2px;
+  margin: 20px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
