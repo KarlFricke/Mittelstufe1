@@ -1,7 +1,7 @@
 import {  defineConfig } from "vite";
 
 export default defineConfig ({
-    root: "index",
+    root: "src",
     assetsInclude: ["./assets/**/*.*"],
     build: {
         emptyOutDir: true,
