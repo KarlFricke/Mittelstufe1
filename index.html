@@ -4,15 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src\css\style.css" />
+    <link rel="stylesheet" href='src/css/style.css' />
     <title>Mittelstufe 1</title>
-  </head>
-  <style>
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
-    
+    <style>
     .bgimg {
       background-image: url("src/pic/night-ga4327a83f_1920.jpg");
       height: 100%;
@@ -22,33 +16,9 @@
       color: white;
       font-family: "Courier New", Courier, monospace;
       font-size: 25px;
-    }
-    
-    .topleft {
-      position: absolute;
-      top: 0;
-      left: 16px;
-    }
-    
-    .bottomleft {
-      position: absolute;
-      bottom: 0;
-      left: 16px;
-    }
-    
-    .middle {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    hr {
-      margin: auto;
-      width: 40%;
-    }
-    </style>
+    }</style>
+  </head>
+
     <body onload="startTime()">
     
     <div class="bgimg">
@@ -57,6 +27,7 @@
       <div class="middle">
         <h1 style="font-size:50px;">COMING SOON</h1>
         <hr>
+        <button onclick="window.location.href = 'src/essensliste.html';" class="button button1">Essensliste</button>
         <p style="font-size:50px;">🌪️🌪️🌪️</p>
         <div id="txt" style="font-size:50px;"></div>  
       </div>
