@@ -18,6 +18,11 @@
       font-family: "Courier New", Courier, monospace;
       font-size: 25px;
     }</style>
+      
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.loadie.js"></script>
+      <link rel="stylesheet" href="css/loadie.css">
+
   </head>
 
     <body onload="startTime()">
@@ -53,5 +58,20 @@
       return i;
     }
     </script>
+
+
+<script>
+	$(function() {
+		var totalImages = $(".loaded-image").size();
+		var imagesLoaded = 0;
+		$('body').loadie();
+		$(".loaded-image").bind("load", function(){
+      $(this).show();
+
+      imagesLoaded++;
+      $('body').loadie(imagesLoaded / totalImages);
+    });
+	})
+	</script>
     </body>
 </html>
