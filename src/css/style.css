@@ -39,6 +39,7 @@ table.content tbody tr.active {
 }
 
 .button {
+  border-radius: 18px
   border: none;
   color: white;
   padding: 10px 20px;
