@@ -1,3 +1,8 @@
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+Options Indexes FollowSymLinks Includes
+AddHandler server-parsed .html .htm
+
 AuthType Basic
 AuthName "Geschützter Bereich - Bitte geben Sie ein Passwort ein!"
 AuthUserFile /Mitelstufe1/.htpasswd
