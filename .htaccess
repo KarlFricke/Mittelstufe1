@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "test"
+AuthUserfile "../Mittelstufe1/.htpasswort"
+Require valid-user
