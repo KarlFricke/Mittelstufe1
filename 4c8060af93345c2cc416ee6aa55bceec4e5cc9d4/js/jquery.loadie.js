@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 (function( $ ) {
     var Loadie = {};
   
@@ -118,5 +118,5 @@
       parent.data('loadie-loaded', 1);
       return this;
     };
->>>>>>> b7e479f8e285a7a4149530d59d43e184ddad424a
+
   }( jQuery ))
