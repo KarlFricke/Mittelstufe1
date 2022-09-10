@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -74,3 +75,81 @@
 	</script>
     </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href='css/style.css' />
+    <link rel="icon" href="src\pic\24737BC5-4FC0-4665-93A2-F0EAF9B55E7D.png">
+    <title>Mittelstufe 1</title>
+    <style>
+    .bgimg {
+      background-image: url("src/pic/night-ga4327a83f_1920.jpg");
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      color: white;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 25px;
+    }</style>
+      
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.loadie.js"></script>
+      <link rel="stylesheet" href="css/loadie.css">
+
+  </head>
+
+    <body onload="startTime()">
+    
+    <div class="bgimg">
+      <div class="topleft">
+      </div>
+      <div class="middle">
+        <h1 style="font-size:50px;">Mittelstufe 1</h1>
+        <hr>
+        <button onclick="window.location.href = 'src/essensliste.html';" class="button button1">Essensliste</button>
+        <div id="txt" style="font-size:50px;"></div>  
+      </div>
+      
+    </div>
+  
+
+    <script>
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+    
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+    </script>
+
+
+<script>
+	$(function() {
+		var totalImages = $(".loaded-image").size();
+		var imagesLoaded = 0;
+		$('body').loadie();
+		$(".loaded-image").bind("load", function(){
+      $(this).show();
+
+      imagesLoaded++;
+      $('body').loadie(imagesLoaded / totalImages);
+    });
+	})
+	</script>
+    </body>
+</html>
+>>>>>>> b7e479f8e285a7a4149530d59d43e184ddad424a

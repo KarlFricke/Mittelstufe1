@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "loadie.js",
     "version": "0.0.0",
@@ -21,4 +22,29 @@
       "test",
       "tests"
     ]
+=======
+{
+    "name": "loadie.js",
+    "version": "0.0.0",
+    "homepage": "https://github.com/9elements/loadie.js",
+    "description": "Loadie.js is a lightweight jQuery plugin to create a preloader that doesn't suck and that is used by big firms.",
+    "main": [
+      "./css/loadie.css",
+      "./js/jquery.loadie.js"
+    ],
+    "keywords": [
+      "preloader",
+      "lightweight",
+      "loading",
+      "load"
+    ],
+    "license": "MIT",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ]
+>>>>>>> b7e479f8e285a7a4149530d59d43e184ddad424a
   }
