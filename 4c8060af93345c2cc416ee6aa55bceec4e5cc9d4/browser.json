@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
     "name": "loadie.js",
     "version": "0.0.0",
@@ -46,5 +46,5 @@
       "test",
       "tests"
     ]
->>>>>>> b7e479f8e285a7a4149530d59d43e184ddad424a
+
   }
