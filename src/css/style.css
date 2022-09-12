@@ -59,7 +59,6 @@ table.content tbody tr.active {
   background-color: white; 
   color: black; 
   border: 0px solid #000000;
-  opacity: 85%;
 }
 
 .button1:hover {
